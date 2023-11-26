@@ -16,25 +16,117 @@
 <header></header>
 <main>
 
-  <h1 class="text-center p-4 text-light"></h1>
-    <section class="px-4 mt-5">
+  <h1 class="text-center p-4 text-light">Persona</h1>
+  <section>
+    <div class="container-fluid my-3">
+  
+      <form class="row pt-3">
+        <div class="col-12 col-sm-6 col-lg-6 mb-3">
+          <label for="nombre" class="form-label">Nombre</label>
+          <input
+            type="text"
+            class="form-control"
+            id="nombre"
+            placeholder="Ej: Juan Perez"
+            aria-describedby="name"
+            required
+            minlength="7"
+            maxlength="30"
+          />
+        </div>
 
-        <button class="btn btn-primary" id="juego">COMENZAR JUEGO</button>
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="edad" class="form-label"
+            >Edad</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="edad"
+            placeholder=""
+            aria-describedby="age"
+            required
+            minlength="1"
+            maxlength="3"
+          />
+        </div>
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="dni" class="form-label"
+            >DNI</label
+          >
+          <input
+            type="number"
+            class="form-control"
+            id="dni"
+            placeholder=""
+            aria-describedby="dni"
+            required
+            minlength="8"
+            maxlength="9"
+          />
+        </div>
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="sexo" class="form-label">Sexo</label>
+          <input
+            type="text"
+            class="form-control"
+            id="sexo"
+            placeholder="M/F"
+            aria-describedby="sex"
+            required
+            minlength="1"
+            maxlength="1"
+          />
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="peso" class="form-label">Peso</label>
+          <input
+            type="number"
+            class="form-control"
+            id="peso"
+            placeholder=""
+            aria-describedby="weight" 
+            required
+            minlength="2"
+            maxlength="3"
+          />
+        </div>
+        
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="altura" class="form-label">Altura</label>
+          <input
+            type="number"
+            class="form-control"
+            id="altura"
+            placeholder=""
+            aria-describedby="height"
+            required
+            minlength="2"
+            maxlength="3"
+          />
+        </div>
+        <div class="col-12 col-sm-6 col-lg-6 mb-3 ">
+          <label for="anioNacimiento" class="form-label">Año de nacimiento</label>
+          <input
+            type="number"
+            class="form-control"
+            id="anioNacimiento"
+            placeholder=""
+            aria-describedby="year"
+            required
+            minlength="4"
+            maxlength="4"
+          />
+        </div>
+        
 
-        <form>
-            <div class="mb-3">
-              <div id="informacion" class="form-text text-light text-center pt-4"><b>Ingresar numero del 1 al 100</b></div>
-
-              <label for="Numero" class="form-label"></label>
-              <input type="number" class="form-control" id="InputNumero" aria-describedby="inputnumber" required minlength="1" maxlength="3">
-              
-            </div>
-            
-            <button type="submit" class="btn btn-primary">ENVIAR</button>
-          </form>
-    </section>
-    
-
+        <div class="mb-3">
+          <button type="submit" class="btn btn-light">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </section>
 </main>
    
 
