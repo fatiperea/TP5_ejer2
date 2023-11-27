@@ -11,3 +11,14 @@ section{
 button{
     width: 50%;
 }
+
+#btnExtra{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+}
+#btnExtra{
+    width: 50%;
+}
