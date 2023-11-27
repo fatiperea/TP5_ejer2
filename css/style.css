@@ -1,6 +1,13 @@
 body{
     background-color: rebeccapurple;
 }
-input label{
-    font-weight: bolder;
+section{
+    width: 50%;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+}
+
+button{
+    width: 50%;
 }
