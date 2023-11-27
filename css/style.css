@@ -19,6 +19,7 @@ button{
     justify-content: space-around;
     margin: auto;
 }
-#btnExtra{
-    width: 50%;
+#btnExtra button{
+    width: 20%;
+    height: 6%;
 }
